@@ -17,4 +17,6 @@ $ cd config_files
 $ cat .bashrc >> ~/.bashrc
 $ cat .zshrc >> ~/.zshrc
 $ cat .vimrc >> ~/.vimrc
+
+$ source <コンフィグファイル>
 ```
