@@ -10,3 +10,7 @@ inoremap ' ''<LEFT>
 
 inoremap {<ENTER> {}<LEFT><ENTER><TAB><ENTER><LEFT><DEL><Up><END>
 inoremap [<ENTER> []<LEFT><ENTER><TAB><ENTER><LEFT><DEL><Up><END>
+
+set cursorline
+set hlsearch
+syntax enable
