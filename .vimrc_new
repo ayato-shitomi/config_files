@@ -1,0 +1,12 @@
+set number
+set tabstop=4
+set autoindent
+
+inoremap { {}<LEFT>
+inoremap [ []<LEFT>
+inoremap ( ()<LEFT>
+inoremap " ""<LEFT>
+inoremap ' ''<LEFT>
+
+inoremap {<ENTER> {}<LEFT><ENTER><TAB><ENTER><LEFT><DEL><Up><END>
+inoremap [<ENTER> []<LEFT><ENTER><TAB><ENTER><LEFT><DEL><Up><END>
